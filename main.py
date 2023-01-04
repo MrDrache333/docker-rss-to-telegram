@@ -1,9 +1,11 @@
+import json
 import logging
 import os
 import ssl
+import time
+
 import feedparser
 import requests
-import json
 
 # Configuration file path
 CONFIG_FILE = "config.json"
@@ -35,9 +37,6 @@ def fetch_rss(url):
     feed = feedparser.parse(url)
 
     return feed["items"]
-
-
-import time
 
 
 def send_items(items, bot_token, chat_id):
