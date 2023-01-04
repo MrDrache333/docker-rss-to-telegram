@@ -1,4 +1,8 @@
 # Docker RSS to Telegram Bot
+[![Create and publish Docker image](https://github.com/MrDrache333/docker-rss-to-telegram/workflows/Create%20and%20publish%20Docker%20image/badge.svg)](https://github.com/MrDrache333/docker-rss-to-telegram/actions?query=workflow:"Create+and+publish+Docker+image")
+[![GitHub release](https://img.shields.io/github/release/MrDrache333/docker-rss-to-telegram?include_prereleases=&sort=semver&color=blue)](https://github.com/MrDrache333/docker-rss-to-telegram/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - docker-unhealthy-autorestart](https://img.shields.io/github/issues/MrDrache333/docker-rss-to-telegram)](https://github.com/MrDrache333/docker-rss-to-telegram/issues)
 
 This repository contains a Python script that fetches an RSS feed and sends the new items to a Telegram chat. The script
 is intended to be run inside a Docker container.
