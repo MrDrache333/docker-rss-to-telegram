@@ -1,0 +1,8 @@
+version: '3'
+services:
+  unhealthy-autostart:
+    image: ghcr.io/mrdrache333/docker-rss-to-telegram
+    environment:
+      - TELEGRAM_BOT_TOKEN=BOT_API_TOKEN
+      - TELEGRAM_CHAT_ID=YOUR_CHAT_ID
+      - FEED_URL=YOUR_FEED_URL
